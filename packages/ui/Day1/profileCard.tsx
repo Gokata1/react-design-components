@@ -5,7 +5,7 @@ export interface ProfileCardProps {
 }
 
 const ProfileCard: React.FC<ProfileCardProps> = (props) => {
-  return <div>{props.name}</div>;
+  return <div className="text-red-300">{props.name}</div>;
 };
 
 export default ProfileCard;
