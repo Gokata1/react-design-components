@@ -58,7 +58,7 @@ const ProfileCard: React.FC<ProfileCardProps> = (props) => {
             alt="Picture of the author"
             className="h-[100px]"
           />
-          <div className="absolute bottom-2 right-2 rounded-full h-4 w-4 bg-green-500 rounded-full"></div>
+          <div className="absolute bottom-2 right-2 rounded-full h-4 w-4 bg-green-500"></div>
         </div>
         <label className="text-2xl font-bold mt-4">John Doe</label>
         <label className="text-slate-400 mt-2">Product Designer, Zomato</label>
