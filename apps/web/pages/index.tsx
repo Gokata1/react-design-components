@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import { BannerCard } from "ui";
 // import { ProfileCard } from "ui";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -93,6 +94,7 @@ export default function Home() {
   return (
     <div className="flex justify-center">
       <ProfileCard name="shrey" />
+      <BannerCard />
     </div>
   );
 }
